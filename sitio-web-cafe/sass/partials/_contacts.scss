@@ -1,0 +1,28 @@
+.contact {
+  .contact__info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact__info-form {
+    background-color: $gray;
+    padding: 1rem 0 2rem 0;
+    form {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-direction: column;
+      padding: 1rem;
+      input {
+        border: 0.1rem solid $gray-light-2;
+        color: $gray-light-2;
+        background-color: $black;
+        padding: 1rem;
+      }
+      button {
+        width: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

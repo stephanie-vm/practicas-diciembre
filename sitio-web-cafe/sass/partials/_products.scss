@@ -1,0 +1,14 @@
+.products {
+  .products__cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .products__cards-info {
+    border: 0.1rem solid $gray-light;
+    padding: 1.5rem;
+  }
+}
+

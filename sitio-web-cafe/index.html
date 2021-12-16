@@ -5,13 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Javascript 2 Project Template</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
   <main class="wrapper">
     <header class="header">
-      <div class="header__logo">
+      <article class="header__logo">
         <img src="img/logo.png" alt="cafetería cafena">
-      </div>
+      </article>
+      <nav class="header__menu-mobile">
+        <input type="checkbox" id="check">
+        <label for="check" class="lbl-menu">
+            <span id="spn1"></span>
+            <span id="spn2"></span>
+            <span id="spn3"></span>
+        </label>
+      </nav>
       <nav class="header__menu">
         <ul>
           <li><a href="#">Home</a></li>
@@ -30,180 +39,173 @@
       <a href="#" target="_blank"> Get Yours Now</a>
     </section>
     <section class="about">
-      <h2>About us</h2>
-      <div class="about__img">
+      <h2><span class="color-beige">ABOUT</span> US</h2>
+      <article class="about__img">
         <img src="img/about-img.jpeg" alt="delicioso café especial servido en una taza elegante y fina de color negro, con un particular aroma del 100% grano entero">
-      </div>
-      <div class="about__info">
+      </article>
+      <article class="about__info">
         <h3>What Makes Our Coffee Special?</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero tempora animi in magni. Excepturi suscipit provident commodi nostrum magnam itaque.</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus nisi sapiente laudantium repellat? Rerum labore magni ea ab. Provident!</p>
 
         <button>Learn more</button>
-      </div>
+      </article>
     </section>
     <section class="menu">
-      <h2>OUR MENU</h2>
-      <div class="menu__cards">
-        <div class="menu__card-info">
+      <h2>OUR <span class="color-beige">MENU</span></h2>
+      <section class="menu__cards">
+        <article class="menu__card-info">
           <img src="img/menu-1.png" alt="">
           <h4>Tasty And Healty</h4>
           <p>$15.99</p>
-        </div>
+        </article>
 
-        <div class="menu__card-info">
+        <article class="menu__card-info">
           <img src="img/menu-2.png" alt="">
           <h4>Tasty And Healty</h4>
           <p>$15.99</p>
-        </div>
+        </article>
 
-        <div class="menu__card-info">
+        <article class="menu__card-info">
           <img src="img/menu-3.png" alt="">
           <h4>Tasty And Healty</h4>
           <p>$15.99</p>
-        </div>
+        </article>
 
-        <div class="menu__card-info">
+        <article class="menu__card-info">
           <img src="img/menu-4.png" alt="">
           <h4>Tasty And Healty</h4>
           <p>$15.99</p>
-        </div>
+        </article>
 
-        <div class="menu__card-info">
+        <article class="menu__card-info">
           <img src="img/menu-5.png" alt="">
           <h4>Tasty And Healty</h4>
           <p>$15.99</p>
-        </div>
+        </article>
 
-        <div class="menu__card-info">
+        <article class="menu__card-info">
           <img src="img/menu-6.png" alt="">
           <h4>Tasty And Healty</h4>
           <p>$15.99</p>
-        </div>
-      </div>
+        </article>
+      </section>
     </section>
     <section class="products">
-      <h2>OUR PRODUCTS</h2>
-      <div class="products__cards">
-        <div class="products__cards-info">
+      <h2>OUR <span class="color-beige">PRODUCTS</span></h2>
+      <section class="products__cards">
+        <article class="products__cards-info">
           <img src="img/product-1.png" alt="">
           <h4>Fresh Coffee</h4>
           <p>$15.99</p>
-        </div>
-      </div>
+        </article>
 
-      <div class="products__cards">
-        <div class="products__cards-info">
+        <article class="products__cards-info">
           <img src="img/product-2.png" alt="">
           <h4>Fresh Coffee</h4>
           <p>$15.99</p>
-        </div>
-      </div>
+        </article>
 
-      <div class="products__cards">
-        <div class="products__cards-info">
+        <article class="products__cards-info">
           <img src="img/product-3.png" alt="">
           <h4>Fresh Coffee</h4>
           <p>$15.99</p>
-        </div>
-      </div>
+        </article>
+      </section>
     </section>
     <section class="reviews">
-      <h2>CUSTOMER'S REVIEWS</h2>
-      <div class="reviews__cards">
-        <div class="reviews__cards-info">
+      <h2>CUSTOMER'S <span class="color-beige">REVIEWS</span></h2>
+      <section class="reviews__cards">
+        <article class="reviews__cards-info">
           <img src="img/quote-img.png" alt="">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nesciunt molestias, in quae sit velit. Iusto facilis ad odio explicabo.</p>
           <img src="img/pic-1.png" alt="">
           <h4>John Deo</h4>
-        </div>
+        </article>
 
-        <div class="reviews__cards-info">
+        <article class="reviews__cards-info">
           <img src="img/quote-img.png" alt="">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nesciunt molestias, in quae sit velit. Iusto facilis ad odio explicabo.</p>
           <img src="img/pic-2.png" alt="">
           <h4>John Deo</h4>
-        </div>
+        </article>
 
-        <div class="reviews__cards-info">
+        <article class="reviews__cards-info">
           <img src="img/quote-img.png" alt="">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nesciunt molestias, in quae sit velit. Iusto facilis ad odio explicabo.</p>
           <img src="img/pic-3.png" alt="">
           <h4>John Deo</h4>
-        </div>
-      </div>
+        </article>
+      </section>
     </section>
     <section class="contact">
-      <h2>CONTACT US</h2>
-      <div class="contact__info">
-        <div class="contact__info-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15722.42825863311!2d-84.06959515286283!3d9.883295304846303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e302b63dee69%3A0xe033a242e664bf2b!2sCerezas%20de%20caf%C3%A9!5e0!3m2!1ses!2scr!4v1638924796148!5m2!1ses!2scr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        <div class="contact__info-form">
-          <h3>GET IN TOUCH</h3>
+      <h2> <span class="color-beige">CONTACT</span> US</h2>
+      <section class="contact__info">
+        <article class="contact__info-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15722.42825863311!2d-84.06959515286283!3d9.883295304846303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e302b63dee69%3A0xe033a242e664bf2b!2sCerezas%20de%20caf%C3%A9!5e0!3m2!1ses!2scr!4v1638924796148!5m2!1ses!2scr" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </article>
+        <article class="contact__info-form">
+          <h2>GET IN TOUCH</h2>
           <form action="#">
-            <label for="name">Name</label>
+            <label for="name"></label>
             <input type="text" id="name" value="name" required>
-            <label for="email">Email</label>
+            <label for="email"></label>
             <input type="text" id="email" value="email" required>
-            <label for="number">Number</label>
+            <label for="number"></label>
             <input type="text" id="number" value="number" required>
             <button>Contact Now</button>
           </form>
-        </div>
-      </div>
+        </article>
+      </section>
       <section class="blog">
-        <h2>OUR BLOGS</h2>
-        <div class="blog__cards">
-          <div class="blog__cards-info">
+        <h2>OUR<span class="color-beige">BLOGS</span></h2>
+        <section class="blog__cards">
+          <article class="blog__cards-info">
             <img src="img/blog-1.jpeg" alt="">
             <h4>Tasty And Refreshing Coffee</h4>
-            <span>By Admin / 21st May, 2021</span>
+            <span class="color-beige">By Admin / 21st May, 2021</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, accusamus.</p>
             <a href="#">Read more</a>
-          </div>
+          </article>
 
-          <div class="blog__cards-info">
+          <article class="blog__cards-info">
             <img src="img/blog-2.jpeg" alt="">
             <h4>Tasty And Refreshing Coffee</h4>
-            <span>By Admin / 21st May, 2021</span>
+            <span class="color-beige">By Admin / 21st May, 2021</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, accusamus.</p>
             <a href="#">Read more</a>
-          </div>
+          </article>
 
-          <div class="blog__cards-info">
+          <article class="blog__cards-info">
             <img src="img/blog-3.jpeg" alt="">
             <h4>Tasty And Refreshing Coffee</h4>
-            <span>By Admin / 21st May, 2021</span>
+            <span class="color-beige">By Admin / 21st May, 2021</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, accusamus.</p>
             <a href="#">Read more</a>
-          </div>
-        </div>
+          </article>
+        </section>
       </section>
     </section>
     <footer class="footer">
-      <div class="footer__social-media">
+      <article class="footer__social-media">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
-      </div>
+      </article>
         <nav class="footer__menu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Review</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
         </nav>
-        <div class="footer__copyright">
-          Created By <span>Mr. Web Designer</span> | All Rights Reserved
-        </div>
+        <article class="footer__copyright">
+          Created By <span class="color-beige">Mr. Web Designer</span> | All Rights Reserved
+        </article>
     </footer>
   </main>
 </body>

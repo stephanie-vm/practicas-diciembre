@@ -1,0 +1,206 @@
+body {
+  background-color: #010103;
+  margin: 0;
+  color: #ffffff;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 2.2rem;
+  margin: 0; }
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  margin: 1.5rem; }
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+p {
+  font-size: 1rem;
+  font-weight: 300; }
+
+a, button {
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #D3AD7F;
+  padding: 0.5rem 1.5rem; }
+
+.color-beige {
+  color: #D3AD7F; }
+
+.header {
+  background-color: #010103;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem; }
+  .header .lbl-menu {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.2);
+    margin-right: 1.7rem; }
+  .header .lbl-menu #spn1, .header #spn2, .header #spn3 {
+    position: absolute;
+    content: '';
+    background: #ffff;
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    transition: all 400ms ease; }
+  .header #spn2 {
+    top: 12px; }
+  .header #spn3 {
+    top: 23px; }
+  .header #check:checked ~ .lbl-menu #spn1 {
+    transform: rotate(140deg);
+    top: 10px; }
+  .header #check:checked ~ .lbl-menu #spn2 {
+    opacity: 0; }
+  .header #check:checked ~ .lbl-menu #spn3 {
+    transform: rotate(-140deg);
+    top: 10px; }
+  .header #check {
+    display: none; }
+
+.header__menu {
+  display: none; }
+
+.banner {
+  background-image: url("./../img/home-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 18rem 1rem; }
+
+.about {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: center; }
+  .about img {
+    width: 100%; }
+  .about .about__info {
+    background-color: #13131A;
+    padding: 1rem; }
+    .about .about__info p {
+      line-height: 1.5rem; }
+
+.menu .menu__cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 1rem; }
+
+.menu .menu__card-info {
+  border: 0.1px solid #4e4e4f;
+  padding: 1.5rem; }
+
+.products .products__cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 1rem; }
+
+.products .products__cards-info {
+  border: 0.1rem solid #4e4e4f;
+  padding: 1.5rem; }
+
+.reviews .reviews__cards {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem; }
+
+.reviews .reviews__cards-info {
+  border: 0.1rem solid #4e4e4f;
+  padding: 1rem; }
+  .reviews .reviews__cards-info p {
+    line-height: 1.5rem; }
+  .reviews .reviews__cards-info :nth-child(3n) {
+    border-radius: 100%;
+    width: 20%; }
+
+.contact .contact__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.contact .contact__info-form {
+  background-color: #13131A;
+  padding: 1rem 0 2rem 0; }
+  .contact .contact__info-form form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem; }
+    .contact .contact__info-form form input {
+      border: 0.1rem solid #757575;
+      color: #757575;
+      background-color: #010103;
+      padding: 1rem; }
+    .contact .contact__info-form form button {
+      width: 50%;
+      margin: 0 auto; }
+
+.blog .blog__cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem; }
+
+.blog .blog__cards-info {
+  padding-bottom: 1.5rem;
+  border: 0.1rem solid #4e4e4f; }
+  .blog .blog__cards-info img {
+    width: 100%; }
+  .blog .blog__cards-info h4, .blog .blog__cards-info span {
+    padding-left: 1rem;
+    line-height: 1.5rem; }
+  .blog .blog__cards-info p {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    line-height: 1.5rem; }
+  .blog .blog__cards-info a {
+    margin-left: 1rem; }
+
+.footer {
+  background-color: #13131A;
+  padding: 0.80rem;
+  margin-top: 1rem; }
+  .footer .footer__menu {
+    display: flex;
+    text-align: center;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .footer .footer__menu a {
+      color: #ffffff;
+      background-color: #13131A;
+      border: 0.1rem solid #757575;
+      padding: 0.4rem 1rem; }
+  .footer .footer__copyright {
+    text-align: center;
+    padding-top: 1rem;
+    line-height: 1.5rem; }
